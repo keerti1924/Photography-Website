@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Photography</title>
+
+    <!-- Favicon Icon-->
+    <link rel="icon" href="images/favicon.jpg">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+</head>
+
+<body>
+    <!-- Navbar Section Start-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="images/logo-white.png" alt="">
+            </a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"
+                type="button"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <a class="nav-link dropdown-toggle" href="#portfolio" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#gallery">Couples</a></li>
+                            <li><a class="dropdown-item" href="#gallery">Wedding</a></li>
+                            <li><a class="dropdown-item" href="#gallery">Adventures</a></li>
+                            <li><a class="dropdown-item" href="#gallery">Nature</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Section End -->
+
+
+    <!-- Carousel Section Start-->
+    <div class="hero carousel slide" data-bs-ride="carousel" id="home">
+        <div class="carousel-inner">
+            <div class="carousel-item active bg-1">
+                <div class="carousel-caption">
+                    <h5>Capturing <span>Moments</span></h5>
+                    <p>Step into a world where every click freezes a moment in time, where emotions, stories, and beauty
+                        converge in a single frame.
+                        uttering a word.</p><a class="text-white" href="#">View Story</a>
+                </div>
+            </div>
+            <div class="carousel-item bg-2">
+                <div class="carousel-caption">
+                    <h5>Exploring <span>Perspectives</span></h5>
+                    <p>Dive into a kaleidoscope of perspectives, where every angle tells a unique story.Join us as we
+                        explore the world through a different lens.</p><a class="text-white" href="#">Read More</a>
+                </div>
+            </div>
+            <div class="carousel-item bg-3">
+                <div class="carousel-caption">
+                    <h5>Nature's <span>Symphony</span></h5>
+                    <p>Immerse yourself in the symphony of nature, where every landscape whispers secrets of serenity
+                        and grandeur. </p><a class="text-white" href="#">See More</a>
+                </div>
+            </div>
+            <div class="carousel-item bg-4">
+                <div class="carousel-caption">
+                    <h5>Moments of <span>Love</span></h5>
+                    <p>Love is a language spoken through gestures, glances, and embraces—a story told in fleeting
+                        moments. </p><a class="text-white" href="#">Know More</a>
+                </div>
+            </div>
+        </div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#home" type="button"><span
+                aria-hidden="true" class="carousel-control-prev-icon"></span> <span
+                class="visually-hidden">Previous</span></button> <button class="carousel-control-next"
+            data-bs-slide="next" data-bs-target="#home" type="button"><span aria-hidden="true"
+                class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
+        <!--thumbnails-->
+        <div class="carousel-indicators">
+            <button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#home" type="button">
+                <img class="img-fluid" src="images/slide1.jpg">
+            </button>
+            <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#home" type="button">
+                <img class="img-fluid" src="images/slide2.jpg">
+            </button>
+            <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#home" type="button">
+                <img class="img-fluid" src="images/slide3.jpg">
+            </button>
+            <button aria-label="Slide 4" data-bs-slide-to="3" data-bs-target="#home" type="button">
+                <img class="img-fluid" src="images/slide4.jpg">
+            </button>
+        </div>
+    </div>
+    <!-- Carousel Section End-->
+
+
+    <!-- About Section Start -->
+    <section class="py-5 about" id="about">
+        <div class="container">
+            <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+                <div class="col-12 col-lg-6 col-xl-7">
+                    <div class="row justify-content-xl-center">
+                        <div class="col-12 col-xl-11">
+                            <h2 class="mb-3">WE CAPTURE THE MOMENTS</h2>
+                            <p class="lead fs-5 text-secondary mb-3">At Capturer, we specialize in freezing those
+                                fleeting moments in time that hold immense significance for you. With our passion for
+                                photography and keen eye for detail, we transform ordinary moments into extraordinary
+                                memories. </p>
+                            <p class="mb-4">Whether it's a milestone event, a candid portrait, or the breathtaking
+                                beauty of nature, we strive to encapsulate the essence of every moment, ensuring that
+                                your cherished memories last a lifetime. Trust us to capture the magic of your life's
+                                journey, one frame at a time. </p>
+                            <a href="#" class="mb-5">Learn More</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-5">
+                    <img class="img-fluid" loading="lazy" src="images/image-3.jpg" alt="About Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End-->
+
+
+    <!-- Slider Section Start-->
+    <div class="slider">
+        <div class="container my-5 py-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="text-dark">Journey Through the Lens</h1>
+                    <p>Embark on a visual odyssey through moments frozen in time, where every frame tells a story, and
+                        every
+                        click captures the essence of life's myriad emotions. Our photography is more than just images;
+                        it's
+                        a gateway to memories, a testament to beauty, and a celebration of the human experience. </p>
+                </div>
+            </div>
+        </div>
+        <div class="owl-carousel owl-theme mb-5">
+            <div class="item"><img src="images/portfolio-1.jpg" alt="Image 1"></div>
+            <div class="item"><img src="images/portfolio-2.jpg" alt="Image 2"></div>
+            <div class="item"><img src="images/portfolio-3.jpg" alt="Image 3"></div>
+            <div class="item"><img src="images/portfolio-4.jpg" alt="Image 4"></div>
+            <div class="item"><img src="images/portfolio-5.jpg" alt="Image 5"></div>
+            <div class="item"><img src="images/portfolio-6.jpg" alt="Image 6"></div>
+            <div class="item"><img src="images/portfolio-7.jpeg" alt="Image 7"></div>
+            <div class="item"><img src="images/portfolio-8.jpg" alt="Image 8"></div>
+
+        </div>
+    </div>
+    <!-- Slider Section End-->
+
+
+    <!-- Gallery Section Start-->
+    <div class="photo-gallery" id="gallery">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">~ GALLERY ~</h2>
+                <p class="text-center">Welcome to our photography gallery, where each image is a story waiting to be
+                    told. Immerse yourself in a world of visual delights as we showcase the beauty of life through our
+                    lens. </p>
+            </div>
+            <div class="row photos">
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 item"><a href="images/image-1.jpg"
+                        data-lightbox="photos"><img class="img-fluid" src="images/image-1.jpg"></a></div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 item"><a href="images/image-2.jpg"
+                        data-lightbox="photos"><img class="img-fluid" src="images/image-2.jpg"></a></div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 item"><a href="images/image-3.jpg"
+                        data-lightbox="photos"><img class="img-fluid" src="images/image-3.jpg"></a></div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 item"><a href="images/image-4.jpg"
+                        data-lightbox="photos"><img class="img-fluid" src="images/image-4.jpg"></a></div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 item"><a href="images/image-5.jpg"
+                        data-lightbox="photos"><img class="img-fluid" src="images/image-5.jpg"></a></div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 item"><a href="images/image-6.jpg"
+                        data-lightbox="photos"><img class="img-fluid" src="images/image-6.jpg"></a></div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 item"><a href="images/image-7.jpg"
+                        data-lightbox="photos"><img class="img-fluid" src="images/image-7.jpg"></a></div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 item"><a href="images/image-8.jpg"
+                        data-lightbox="photos"><img class="img-fluid" src="images/image-8.jpg"></a></div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery Section End-->
+
+
+    <!-- Banner Section Start-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>Do it Your Way. <br> Elope in Your <br> Dream <br>Location</h1>
+        </div>
+    </div>
+    <!-- Banner Section End -->
+
+
+    <!-- Testimonials Section Start -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-header">~ TESTIMONIALS ~</h2>
+            <div class="testimonials shadow">
+
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="single-item">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="profile">
+                                            <div class="img-area">
+                                                <img src="images/client-1.jpg" alt="">
+                                            </div>
+                                            <div class="bio">
+                                                <h2>Dave Wood</h2>
+                                                <h4>Web Developer</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="content">
+                                            <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit
+                                                amet, consectetur adipisicing elit. Vel a eius excepturi molestias
+                                                commodi aliquam error magnam consectetur laboriosam numquam, minima
+                                                eveniet nostrum sequi saepe ipsam non ea, inventore tenetur!
+                                                Corporis commodi consequatur molestiae voluptatum!</p>
+                                            <p class="socials">
+                                                <i class="fa fa-facebook"></i>
+                                                <i class="fa fa-instagram"></i>
+                                                <i class="fa fa-twitter"></i>
+                                                <i class="fa fa-envelope"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="single-item">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="profile">
+                                            <div class="img-area">
+                                                <img src="images/client-2.jpg" alt="">
+                                            </div>
+                                            <div class="bio">
+                                                <h2>Martin Guptill</h2>
+                                                <h4>UI/UX Designer</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="content">
+                                            <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit
+                                                amet, consectetur adipisicing elit. Vel a eius excepturi molestias
+                                                commodi aliquam error magnam consectetur laboriosam numquam, minima
+                                                eveniet nostrum sequi saepe ipsam non ea, inventore tenetur!
+                                                Corporis commodi consequatur molestiae voluptatum!</p>
+                                            <p class="socials">
+                                                <i class="fa fa-facebook"></i>
+                                                <i class="fa fa-instagram"></i>
+                                                <i class="fa fa-twitter"></i>
+                                                <i class="fa fa-envelope"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="single-item">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="profile">
+                                            <div class="img-area">
+                                                <img src="images/client-3.jpg" alt="">
+                                            </div>
+                                            <div class="bio">
+                                                <h2>Stephen Jones</h2>
+                                                <h4>Graphic Designer</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="content">
+                                            <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit
+                                                amet, consectetur adipisicing elit. Vel a eius excepturi molestias
+                                                commodi aliquam error magnam consectetur laboriosam numquam, minima
+                                                eveniet nostrum sequi saepe ipsam non ea, inventore tenetur!
+                                                Corporis commodi consequatur molestiae voluptatum!</p>
+                                            <p class="socials">
+                                                <i class="fa fa-facebook"></i>
+                                                <i class="fa fa-instagram"></i>
+                                                <i class="fa fa-twitter"></i>
+                                                <i class="fa fa-envelope"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section End -->
+
+
+    <!-- Instagram Section Start-->
+    <section class="section__container instagram__container" id="portfolio">
+        <h2 class="section__header">~ INSTAGRAM ~</h2>
+        <div class="instagram__flex">
+            <img src="images/image-1.jpg" alt="instagram" />
+            <img src="images/image-2.jpg" alt="instagram" />
+            <img src="images/image-3.jpg" alt="instagram" />
+            <img src="images/image-4.jpg" alt="instagram" />
+            <img src="images/image-5.jpg" alt="instagram" />
+            <img src="images/image-6.jpg" alt="instagram" />
+            <img src="images/image-7.jpg" alt="instagram" />
+            <img src="images/image-8.jpg" alt="instagram" />
+        </div>
+    </section>
+    <!-- Instagram Section End-->
+
+
+    <!-- Footer Section Start-->
+    <footer class="footer pt-5" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="list-unstyled">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Developed with ❤ by Keerti <br>
+                        © Copyright 2024 | All rights reserved.</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End-->
+
+
+
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <!-- jQuery (required for Owl Carousel) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="main.js"></script>
+
+    <script>
+        //Owl Carousel JQuery
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
